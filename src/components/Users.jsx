@@ -28,12 +28,12 @@ const Users = () => {
 
     return (
         <div>
-            <h1>users: {loadedUsers.length}</h1>
+            
 
             <div className="overflow-x-auto">
                 <table className="table">
                     {/* head */}
-                    <thead>
+                    <thead className="bg-black text-white text-3xl">
                         <tr>
                             <th></th>
                             <th>Email</th>
